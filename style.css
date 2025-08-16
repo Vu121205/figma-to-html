@@ -1,12 +1,14 @@
+/* Đây là file dùng để setup css */
 *{
     box-sizing: border-box;
 }
-
 html{
+    /* đổi rem thành 10px*/
+    /* 10/16*100 = 62.5% */
     font-size: 62.5%;
 }
-
 /* Khôi phục cỡ chữ mặc định theo rem */
 body{
     font-size: 1.6rem;
+    font-family: "Poppins", sans-serif;
 }
